@@ -1,0 +1,89 @@
+/* BASIC CSS RESET */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 16px;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* BASIC CSS RESET */
+
+body {
+  height: 100%;
+  color: white;
+  background-color: #121212;
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  width: 1280px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.mainWrapper {
+  width: 100%;
+  height: 100%;
+}
+
+/* Navbar */
+.brandStyle {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.logoText {
+  margin-left: 10px;
+}
+/* Navbar */
+
+/* Global Animations */
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
