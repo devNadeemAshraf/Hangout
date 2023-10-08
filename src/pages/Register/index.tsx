@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "./Register.module.css";
 
-import Card from "@/components/shared/Card";
+import Card from "@/components/shared/CustomCard";
 
 // Steps
 import StepPhoneEmail from "./Steps/StepPhoneEmail";
